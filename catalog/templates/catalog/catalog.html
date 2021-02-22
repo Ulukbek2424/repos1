@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% for item in products %}
+
+  {% include 'include/_card.html' %}
+
+{% endfor %}
+{% endblock %}
